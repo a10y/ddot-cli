@@ -44,6 +44,9 @@ client.subscribe(ENV.websocketPrefix + "/Camera");
 client.on("message", (topic, payload, packet) => {
     const cameras = JSON.parse(payload.toString("utf-8"));
     for (let key of Object.keys(cameras)) {
+        if (key == "action") {
+            continue;
+        }
         console.log(`${key} => ${cameras[key].title}`);
     }
     const rl = readline.createInterface({ input, output });
