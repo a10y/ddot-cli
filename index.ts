@@ -1,7 +1,4 @@
 import mqtt from "mqtt";
-import * as Level from "level";
-// import {  } from "os";
-// import {  } from "process";
 import { spawnSync } from "child_process";
 import * as readline from "readline";
 import { stdin as input, stdout as output } from "process";
