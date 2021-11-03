@@ -1,5 +1,7 @@
 # ddot-cli
 
+<img width="600" alt="Screen Shot 2021-11-02 at 9 00 11 PM" src="https://user-images.githubusercontent.com/332583/139977308-30a1c518-5761-4935-8d89-eb86349fdc31.png">
+
 
 A small TypeScript authored CLI for browsing traffic cameras.
 
